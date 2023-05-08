@@ -129,13 +129,12 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 3%;
 }
 
 .projetos-image {
-    width: 50%;
-    height: auto;
+    width: 60%;
+    height: 20%;
     border-radius: 20px;
     margin: 5px;
     cursor: pointer;
@@ -200,7 +199,8 @@ h1 {
 .profile-content {
     width: 50%;
     display: flex;
-    place-content: center;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -210,8 +210,9 @@ h1 {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: auto;
     background: #3575DC;
-    background: linear-gradient(0deg, #1e4c78 0%, #093e6f 50%);
+    background: linear-gradient(0deg, #3e6c97 0%, #093e6f 70%);
     padding: 30px;
     border-radius: 8px;
 }
