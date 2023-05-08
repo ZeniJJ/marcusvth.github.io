@@ -316,7 +316,6 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     background-image: url('https://c4.wallpaperflare.com/wallpaper/445/975/670/web-development-minimalism-wallpaper-preview.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -356,6 +355,8 @@ h1 {
     font-size: 60px;
     color: #fff;
     text-shadow: 2px 2px 5px #000;
+    place-content: center;
+    margin-top: 350px;
 }
 
 .arrows {
