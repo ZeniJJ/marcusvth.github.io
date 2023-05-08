@@ -129,12 +129,13 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 3%;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
 .projetos-image {
-    width: 60%;
-    height: 20%;
+    width: 50%;
+    height: auto;
     border-radius: 20px;
     margin: 5px;
     cursor: pointer;
@@ -199,8 +200,7 @@ h1 {
 .profile-content {
     width: 50%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    place-content: center;
     
 }
 
@@ -210,7 +210,6 @@ h1 {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: auto;
     background: #3575DC;
     background: linear-gradient(0deg, #3e6c97 0%, #093e6f 70%);
     padding: 30px;
@@ -276,6 +275,31 @@ h1 {
     height: 85px;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(min-width: 480px){
 
@@ -395,7 +419,7 @@ h1 {
     height: 100%;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
     background-image: url('https://images4.alphacoders.com/552/552010.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -404,7 +428,6 @@ h1 {
 .projetos-content {
     width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin-top: 100px;
