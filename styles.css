@@ -210,11 +210,13 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 130%;
-    height: 90%;
+    height: 400px;
     background: #3575DC;
     background: linear-gradient(0deg, #3e6c97 0%, #093e6f 70%);
     margin-top: 30px;
+    margin-bottom: 30px;
     border-radius: 8px;
     padding: 10px;
 }
